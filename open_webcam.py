@@ -7,10 +7,10 @@ while(True):
 	ret,frame = cap.read()
 
 	#gray = cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)
-	colorr = cv2.cvtColor(frame,cv2.COLOR_RGB2BGR)
+	
 
 	#cv2.imshow('frame',gray)
-	cv2.imshow("",colorr)
+	cv2.imshow('mushtaq interview',frame)
 
 	if cv2.waitKey(1) & 0xFF ==ord('q'): 
 		break
